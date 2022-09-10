@@ -1,0 +1,20 @@
+.component-Text-Input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.component-Text-Input input {
+  width: 650px;
+  height: 55px;
+  background-color: rgba(225, 225, 225, 0.2);
+  border-color: #eee;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 1rem;
+  font-size: var(--fs-body);
+}
+
+.component-Text-Input input:active {
+  border-color: blue;
+}

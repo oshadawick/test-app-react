@@ -1,0 +1,25 @@
+.component-Task-Area {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  padding-top: 100px;
+}
+
+.component-Task-Area .date {
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: var(--fw-bold);
+  position: absolute;
+  margin-left: 40px;
+}
+
+.component-Task-Area .task-list {
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 30px;
+  height: 500px;
+  margin-top: 24px;
+  padding-left: 80px;
+  padding-top: 60px;
+  overflow-x: scroll;
+}

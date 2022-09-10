@@ -1,0 +1,16 @@
+.component-Header {
+  color: #fff;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.component-Header h1 {
+  font-weight: var(--fw-bold);
+  padding: 1rem;
+}
+
+.component-Header img {
+  position: relative;
+}
